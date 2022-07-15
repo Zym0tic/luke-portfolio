@@ -1,4 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+   background-color: #E0E2DD;
+}
+
 h1 {
-    color: rebeccapurple;
-    font-size: 6rem;
+    color: #363536;
+    background-color: #585E58;
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    padding-right: 5%;
+}
+
+header {
+    background-color: #87715C;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #585E58;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+.last-name {
+    color: #E0E2DD;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
