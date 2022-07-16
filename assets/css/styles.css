@@ -79,6 +79,16 @@ ul {
   background-color: var(--thunder);
 }
 
+.banner h2 {
+  line-height: 300px;
+}
+
+.luke-img {
+  border-radius: 50%;
+  padding: 3% 0;
+  width: 100%;
+}
+
 .last-name {
   color: var(--quill-grey);
 }
@@ -87,3 +97,7 @@ ul {
   width: 100%
 }
 
+.contact {
+  text-align: start;
+  padding: 2% 0;
+}
