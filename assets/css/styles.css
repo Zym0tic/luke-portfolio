@@ -13,6 +13,9 @@ body {
 
 header {
   background-color: var(--finlandia);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 2%;
 }
 
@@ -40,12 +43,13 @@ h3 {
 }
 
 h4 {
-  color: var(--thunder);
+  color: var(--domino);
 }
 
 p {
   color: var(--thunder);
 }
+
 
 .banner {
   height: 100px;
@@ -59,3 +63,4 @@ p {
 .work-img {
   width: 70%
 }
+
