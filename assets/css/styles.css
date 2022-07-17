@@ -6,6 +6,10 @@
   --domino: #87715C;
 }
 
+* {
+  font-family: 'Heebo' , sans-serif;
+}
+
 body {
   background-color: var(--quill-grey);
   line-height: 1.5;
@@ -102,6 +106,7 @@ ul {
   position: relative;
   text-align: center;
   color: white;
+  padding: 2% 0;
 }
 
 .centered {
