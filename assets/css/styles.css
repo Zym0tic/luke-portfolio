@@ -24,6 +24,10 @@ main {
   padding: 2% 8%;
 }
 
+section {
+  padding: 3% 0;
+}
+
 h1 {
   color: var(--thunder);
   font-size: 50px;
@@ -115,6 +119,14 @@ hr {
 .container {
   position: relative;
   text-align: center;
+  padding: 1%;
+ 
+}
+
+.container-big {
+  position: relative;
+  text-align: center;
+  padding: 1%;
  
 }
 
@@ -159,14 +171,75 @@ hr {
   }
 
   .centered {
-    left: 55px;
+    left: 60px;
   }
-
-  /* work-boxes */
 
   .luke-img {
     width: 50%;
     margin: 0 auto;
+    padding: 2% 0;
   }
+
+  /* about me */
+
+  .about-me h3,
+  p {
+    padding: 3%;
+  }
+
+/* work */
+
+.work h3, 
+.work-boxes {
+  padding: 3%;
+}
+
+.work-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-big {
+  flex-basis: 100%;
+}
+
+.container {
+  flex-basis: 50%;
+}
+
+/* contact */
+
+.contact-me h3,
+.contact {
+  padding: 3%;
+}
+
+.contact {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+}
+
+@media screen and (min-width: 992px) {
+
+  h1 {
+    font-size: 100px;
+  }
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-me {
+  /* display: flex;
+  justify-content: space-between; */
+}
 
 }
