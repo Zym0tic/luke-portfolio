@@ -237,9 +237,17 @@ hr {
     font-size: 100px;
   }
 
+  h3 {
+    font-size: 25px;
+  }
+
   .about-me {
     display: flex;
     justify-content: space-between;
+  }
+
+  .centered {
+    left: 62px;
   }
 
   .work {
@@ -250,7 +258,7 @@ hr {
   .contact-me {
     display: flex;
   }
-  
+
   .right-col {
     width: 80%;
   }
