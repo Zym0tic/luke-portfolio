@@ -1,13 +1,13 @@
 :root {
   --thunder: #363536;
-  --finlandia: #585E58;
-  --quill-grey: #E0E2DD;
-  --squirrel: #8C7F77;
-  --domino: #87715C;
+  --finlandia: #585e58;
+  --quill-grey: #e0e2dd;
+  --squirrel: #8c7f77;
+  --domino: #87715c;
 }
 
 * {
-  font-family: 'Heebo' , sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 body {
@@ -117,21 +117,19 @@ hr {
   border-style: solid;
   border-width: 7px;
   border-color: var(--domino);
-  width: 100%
+  width: 100%;
 }
 
 .container {
   position: relative;
   text-align: center;
   padding: 1%;
- 
 }
 
 .container-big {
   position: relative;
   text-align: center;
   padding: 1%;
- 
 }
 
 .centered {
@@ -157,8 +155,7 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-
-/* navbar */
+  /* navbar */
 
   .title {
     line-height: 90px;
@@ -171,7 +168,7 @@ hr {
     align-items: center;
   }
 
-   .navigation ul {
+  .navigation ul {
     display: inline;
     flex-wrap: nowrap;
     font-size: 16px;
@@ -195,59 +192,66 @@ hr {
     padding: 3%;
   }
 
-/* work */
+  /* work */
 
-.work h3, 
-.work-boxes {
-  padding: 3%;
-}
+  .work h3,
+  .work-boxes {
+    padding: 3%;
+  }
 
-.work-boxes {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .work-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.container-big {
-  flex-basis: 100%;
-}
+  .container-big {
+    flex-basis: 100%;
+  }
 
-.container {
-  flex-basis: 50%;
-}
+  .container {
+    flex-basis: 50%;
+  }
 
-/* contact */
+  /* contact */
 
-.contact-me h3,
-.contact {
-  padding: 3%;
-}
+  .contact-me h3,
+  .contact {
+    padding: 3%;
+  }
 
-.contact {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-}
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  h3 {
+    width: 20%;
+  }
+
+
 }
 
 @media screen and (min-width: 992px) {
-
   h1 {
     font-size: 100px;
   }
 
-.about-me {
-  display: flex;
-  justify-content: space-between;
-}
+  .about-me {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.work {
-  display: flex;
-  justify-content: space-between;
-}
+  .work {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.contact-me {
-  /* display: flex;
-  justify-content: space-between; */
-}
-
+  .contact-me {
+    display: flex;
+  }
+  
+  .right-col {
+    width: 80%;
+  }
 }
