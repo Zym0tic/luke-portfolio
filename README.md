@@ -14,7 +14,7 @@ All that is needed is to git pull this to your local server, open with a text ed
 
 ## Usage 
 
-for viewing purposes
+https://zym0tic.github.io/luke-portfolio/
 
 ![Screenshot](./assets/images/screenshot.png)
 
